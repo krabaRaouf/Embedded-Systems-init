@@ -5,6 +5,26 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "cwd": "${workspaceRoot}",
+            "executable": "./build/Debug/blink_led_2.elf",
+            "name": "Debug with OpenOCD",
+            "request": "launch",
+            "type": "cortex-debug",
+            "servertype": "openocd",
+            "configFiles": [
+                "interface/stlink.cfg",
+                "target/stm32f1x.cfg"
+            ],
+            "openOCDLaunchCommands": [
+                "reset_config srst_only srst_nogate connect_assert_srst"
+            ],
+            "searchDir": [],
+            "runToEntryPoint": "main",
+            "showDevDebugOutput": "none",
+            "gdbPath": "/usr/local/bin/arm-none-eabi-gdb",
+            "serverpath": "/usr/local/bin/openocd"
+        },
+        {
             "type": "stlinkgdbtarget",
             "request": "launch",
             "name": "STM32Cube: Launch ST-Link GDB Server",
