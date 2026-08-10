@@ -1,0 +1,6 @@
+# ninja log v7
+10	1119	1784651584864687156	CMakeFiles/blink_led_2.dir/Src/startup_stm32f103xx.S.obj	fa3c90e2ee1e7006
+2	1186	1784651584857376059	CMakeFiles/blink_led_2.dir/Src/sysmem.c.obj	ca4c4b4202fa34aa
+2	1219	1784651584856548773	CMakeFiles/blink_led_2.dir/Src/main.c.obj	1697012cf51df5e1
+2	1256	1784651584856983754	CMakeFiles/blink_led_2.dir/Src/syscall.c.obj	28bcf376be245c89
+1257	2719	1784651586111608678	blink_led_2.elf	80491e0167742394

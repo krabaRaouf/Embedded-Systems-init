@@ -1,0 +1,26 @@
+[
+{
+  "directory": "/Users/mac/Desktop/Embedded_Projects/Embedded-Systems-init/blink_led_2/build/Debug",
+  "command": "\"/Users/mac/Library/Application Support/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/arm-none-eabi-gcc\" -DDEBUG -DRTE_DEVICE_STARTUP_STM32F1XX -I/Users/mac/Desktop/Embedded_Projects/Embedded-Systems-init/blink_led_2/Inc -I/Users/mac/Desktop/Embedded_Projects/Embedded-Systems-init/blink_led_2 -fdata-sections -ffunction-sections -Wl,--gc-sections -Wno-comment -std=gnu11 -mcpu=cortex-m3 -mlittle-endian -mthumb -fstack-usage -Wall -Wextra -Wpedantic -Wno-unused-parameter -O0 -g3 -ggdb -o CMakeFiles/blink_led_2.dir/Src/main.c.obj -c /Users/mac/Desktop/Embedded_Projects/Embedded-Systems-init/blink_led_2/Src/main.c",
+  "file": "/Users/mac/Desktop/Embedded_Projects/Embedded-Systems-init/blink_led_2/Src/main.c",
+  "output": "/Users/mac/Desktop/Embedded_Projects/Embedded-Systems-init/blink_led_2/build/Debug/CMakeFiles/blink_led_2.dir/Src/main.c.obj"
+},
+{
+  "directory": "/Users/mac/Desktop/Embedded_Projects/Embedded-Systems-init/blink_led_2/build/Debug",
+  "command": "\"/Users/mac/Library/Application Support/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/arm-none-eabi-gcc\" -DDEBUG -DRTE_DEVICE_STARTUP_STM32F1XX -I/Users/mac/Desktop/Embedded_Projects/Embedded-Systems-init/blink_led_2/Inc -I/Users/mac/Desktop/Embedded_Projects/Embedded-Systems-init/blink_led_2 -fdata-sections -ffunction-sections -Wl,--gc-sections -Wno-comment -std=gnu11 -mcpu=cortex-m3 -mlittle-endian -mthumb -fstack-usage -Wall -Wextra -Wpedantic -Wno-unused-parameter -O0 -g3 -ggdb -o CMakeFiles/blink_led_2.dir/Src/syscall.c.obj -c /Users/mac/Desktop/Embedded_Projects/Embedded-Systems-init/blink_led_2/Src/syscall.c",
+  "file": "/Users/mac/Desktop/Embedded_Projects/Embedded-Systems-init/blink_led_2/Src/syscall.c",
+  "output": "/Users/mac/Desktop/Embedded_Projects/Embedded-Systems-init/blink_led_2/build/Debug/CMakeFiles/blink_led_2.dir/Src/syscall.c.obj"
+},
+{
+  "directory": "/Users/mac/Desktop/Embedded_Projects/Embedded-Systems-init/blink_led_2/build/Debug",
+  "command": "\"/Users/mac/Library/Application Support/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/arm-none-eabi-gcc\" -DDEBUG -DRTE_DEVICE_STARTUP_STM32F1XX -I/Users/mac/Desktop/Embedded_Projects/Embedded-Systems-init/blink_led_2/Inc -I/Users/mac/Desktop/Embedded_Projects/Embedded-Systems-init/blink_led_2 -fdata-sections -ffunction-sections -Wl,--gc-sections -Wno-comment -std=gnu11 -mcpu=cortex-m3 -mlittle-endian -mthumb -fstack-usage -Wall -Wextra -Wpedantic -Wno-unused-parameter -O0 -g3 -ggdb -o CMakeFiles/blink_led_2.dir/Src/sysmem.c.obj -c /Users/mac/Desktop/Embedded_Projects/Embedded-Systems-init/blink_led_2/Src/sysmem.c",
+  "file": "/Users/mac/Desktop/Embedded_Projects/Embedded-Systems-init/blink_led_2/Src/sysmem.c",
+  "output": "/Users/mac/Desktop/Embedded_Projects/Embedded-Systems-init/blink_led_2/build/Debug/CMakeFiles/blink_led_2.dir/Src/sysmem.c.obj"
+},
+{
+  "directory": "/Users/mac/Desktop/Embedded_Projects/Embedded-Systems-init/blink_led_2/build/Debug",
+  "command": "\"/Users/mac/Library/Application Support/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/arm-none-eabi-gcc\" -DDEBUG -I/Users/mac/Desktop/Embedded_Projects/Embedded-Systems-init/blink_led_2/Inc -I/Users/mac/Desktop/Embedded_Projects/Embedded-Systems-init/blink_led_2 -g -mcpu=cortex-m3 -mlittle-endian -mthumb -fstack-usage -Wall -Wextra -Wpedantic -Wno-unused-parameter -x assembler-with-cpp -MMD -MP -O0 -g3 -ggdb -o CMakeFiles/blink_led_2.dir/Src/startup_stm32f103xx.S.obj -c /Users/mac/Desktop/Embedded_Projects/Embedded-Systems-init/blink_led_2/Src/startup_stm32f103xx.S",
+  "file": "/Users/mac/Desktop/Embedded_Projects/Embedded-Systems-init/blink_led_2/Src/startup_stm32f103xx.S",
+  "output": "/Users/mac/Desktop/Embedded_Projects/Embedded-Systems-init/blink_led_2/build/Debug/CMakeFiles/blink_led_2.dir/Src/startup_stm32f103xx.S.obj"
+}
+]

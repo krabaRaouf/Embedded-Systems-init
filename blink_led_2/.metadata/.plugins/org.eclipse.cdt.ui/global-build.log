@@ -1,0 +1,66 @@
+12:48:38 **** Incremental Build of configuration Debug for project blink_led_3 ****
+make -j3 all 
+arm-none-eabi-gcc -o "blink_led_3.elf" @"objects.list"   -mcpu=cortex-m3 -T"/Users/mac/Desktop/Embedded_Projects/Embedded-Systems-init/blink_led_2/blink_led_3/STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="blink_led_3.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: blink_led_3.elf
+ 
+arm-none-eabi-size  blink_led_3.elf 
+arm-none-eabi-objdump -h -S blink_led_3.elf  > "blink_led_3.list"
+arm-none-eabi-objcopy  -O ihex blink_led_3.elf  "blink_led_3.hex"
+   text	   data	    bss	    dec	    hex	filename
+   4616	     12	   1572	   6200	   1838	blink_led_3.elf
+Finished building: default.size.stdout
+ 
+arm-none-eabi-objcopy  -O binary blink_led_3.elf  "blink_led_3.bin"
+Finished building: blink_led_3.hex
+Finished building: blink_led_3.list
+ 
+ 
+Finished building: blink_led_3.bin
+ 
+13:45:46 **** Incremental Build of configuration Debug for project blink_led_3 ****
+make -j3 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "blink_led_3.elf" @"objects.list"   -mcpu=cortex-m3 -T"/Users/mac/Desktop/Embedded_Projects/Embedded-Systems-init/blink_led_2/blink_led_3/STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="blink_led_3.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: blink_led_3.elf
+ 
+arm-none-eabi-size  blink_led_3.elf 
+arm-none-eabi-objdump -h -S blink_led_3.elf  > "blink_led_3.list"
+arm-none-eabi-objcopy  -O ihex blink_led_3.elf  "blink_led_3.hex"
+   text	   data	    bss	    dec	    hex	filename
+   4656	     12	   1572	   6240	   1860	blink_led_3.elf
+Finished building: default.size.stdout
+ 
+arm-none-eabi-objcopy  -O binary blink_led_3.elf  "blink_led_3.bin"
+Finished building: blink_led_3.list
+Finished building: blink_led_3.hex
+ 
+ 
+Finished building: blink_led_3.bin
+ 
+23:36:20 **** Incremental Build of configuration Debug for project blink_led_3 ****
+make -j3 all 
+arm-none-eabi-size  blink_led_3.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4656	     12	   1572	   6240	   1860	blink_led_3.elf
+Finished building: default.size.stdout
+ 
+23:37:24 **** Incremental Build of configuration Debug for project blink_led_3 ****
+make -j3 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "blink_led_3.elf" @"objects.list"   -mcpu=cortex-m3 -T"/Users/mac/Desktop/Embedded_Projects/Embedded-Systems-init/blink_led_2/blink_led_3/STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="blink_led_3.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: blink_led_3.elf
+ 
+arm-none-eabi-size  blink_led_3.elf 
+arm-none-eabi-objdump -h -S blink_led_3.elf  > "blink_led_3.list"
+arm-none-eabi-objcopy  -O ihex blink_led_3.elf  "blink_led_3.hex"
+   text	   data	    bss	    dec	    hex	filename
+   4656	     12	   1572	   6240	   1860	blink_led_3.elf
+Finished building: default.size.stdout
+ 
+arm-none-eabi-objcopy  -O binary blink_led_3.elf  "blink_led_3.bin"
+Finished building: blink_led_3.hex
+ 
+Finished building: blink_led_3.list
+ 
+Finished building: blink_led_3.bin
+ 
