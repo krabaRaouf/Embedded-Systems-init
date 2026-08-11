@@ -37,3 +37,28 @@ int main(void) {
     }
     return 0;
 }
+
+
+// startup code for STM32F103C8T6
+// this is the minimal startup code for the STM32F103C8T6 microcontroller.
+// It defines the initial entry point of the program and sets up the interrupt vector table.
+
+// naked, noreturn attribute tells the compiler that this function does not 
+// return and should not generate any prologue or epilogue code. 
+// from the C standard, the main function is expected to return an int value, but in embedded systems,
+// the main function typically runs indefinitely and does not return. 
+// The naked attribute is used to indicate that the function does not have a 
+// standard prologue or epilogue, and the noreturn attribute indicates that the function 
+// will not return to the caller.
+
+__attribute__((naked, noreturn)) void _reset(void) {
+    for(;;)(void) 0; // Infinite loop to prevent returning from reset
+}
+
+//stack 
+extern void _estack(void); // defined from link.ld
+
+//16 and 91 specific interrupt service routine handlers
+__attribute__((section(".vectors"))) void (* const tab [16 + 19])(void) = {
+    _estack, _reset 
+};
